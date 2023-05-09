@@ -30,10 +30,10 @@ public class Radio {
     public void prevStation() { // переключаем на предыдущую станцию
         if (currentStation != 0) { // если была больше 0, станет -1
            currentStation--;
-            } else {
-                currentStation = 9; // если была 0, станет 9
-            }
+        } else {
+           currentStation = 9; // если была 0, станет 9
         }
+    }
 
      public int getCurrentVolume() {
         return currentVolume;
